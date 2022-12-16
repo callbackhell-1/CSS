@@ -1,0 +1,12 @@
+/* univsersal selector */
+* {
+  color: red;
+}
+
+/* type  selector*/
+
+p {
+  background-color: yellow;
+}
+
+/* type selector priority > universal selector */
