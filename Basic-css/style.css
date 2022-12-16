@@ -35,7 +35,7 @@
   color:initial;
 }   */
 
-.custom {
+/* .custom {
   color: green;
 }
 
@@ -45,6 +45,19 @@
 
 p{
   color: blue;
-}
+} */
 
 /*  element selector <  class selector */
+
+/* comment  */
+
+a{
+  color: green;
+}
+
+/* Attritube selector */
+
+a[href="insta"]{
+  color:red;
+}
+
