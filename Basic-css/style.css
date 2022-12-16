@@ -6,31 +6,45 @@
 
 /* type  selector*/
 
-p {
+/* p {
   background-color: yellow;
 }
 
 /* type selector priority > universal selector */
 
 /* class selector */
-
+/*
 .custom {
   color: green;
 }
 /* univeral selector > class selector */
 
-.spcl{
+/* .spcl{
   color: brown;
-}
+} */
 
-.custom {
+/* .custom {
   color: green !important;
 }
 
 .spcl{
   color: brown;
+} */
+
+/* .random{
+  color:initial;
+}   */
+
+.custom {
+  color: green;
 }
 
-.random{
-  color:initial;
+#bg {
+  background-color: lightblue;
 }
+
+p{
+  color: blue;
+}
+
+/*  element selector <  class selector */
