@@ -1,7 +1,8 @@
 /* univsersal selector */
-* {
+
+/* * {
   color: red;
-}
+} */
 
 /* type  selector*/
 
@@ -10,3 +11,26 @@ p {
 }
 
 /* type selector priority > universal selector */
+
+/* class selector */
+
+.custom {
+  color: green;
+}
+/* univeral selector > class selector */
+
+.spcl{
+  color: brown;
+}
+
+.custom {
+  color: green !important;
+}
+
+.spcl{
+  color: brown;
+}
+
+.random{
+  color:initial;
+}
