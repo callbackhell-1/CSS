@@ -4,7 +4,8 @@ p {
     color: rgba(255, 0, 0, 0.426);
     color: #ff0000;
     color: hsla(0, 78%, 46%, 0.871); */
-  background-color: aqua;
+
+  /* background-color: aqua; */
   font-family: "Courier New", Courier, monospace;
   font-size: large;
   font-size: 20px;
@@ -16,13 +17,21 @@ p {
   text-align: justify;
   text-transform: capitalize;
   text-decoration: none;
-  text-indent: 25%;
+  /* text-indent: 25%; */
   line-height: 20px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  text-shadow: 0 0 2px black;
+  /* text-shadow: 0 0 2px black; */
   /* x-cordinate y-cord  */
 
 }
 
 
+body{
+    background-color: lightpink;
+    background-image: url("../Media/image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 20% 50%;
+}
