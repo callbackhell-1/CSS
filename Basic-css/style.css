@@ -61,32 +61,50 @@ p{
   color:red;
 } */
 
-div,
+/* div,
 h1,
 span,
 em {
   color: aqua;
-}
+} */
 
 /* child selector  */
 
-span > p{
+/* span > p{
   color:red
-}
+} */
 
 /* we can include class and id also */
-div,
+/* div,
 h1,
 span,
 em,.custom, #idName{
   color: rgb(109, 245, 24);
-}
+} */
 
-li{
+/* li{
   color:red
-}
+} */
 /* Desendent combinator */
 
 li li{
   color:blue
 }
+
+/* adjacent sibling selector */
+
+/* h1 + p {
+  color: #5218f3;
+}
+
+ul + li {
+  color: yellow;
+  background-color: black;
+}
+
+
+/*  General sibling selector*/
+
+/* h1~p{
+  color:red
+} */ 
