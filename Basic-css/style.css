@@ -51,13 +51,42 @@ p{
 
 /* comment  */
 
-a{
+/* a{
   color: green;
-}
+} */
 
 /* Attritube selector */
 
-a[href="insta"]{
+/* a[href="insta"]{
   color:red;
+} */
+
+div,
+h1,
+span,
+em {
+  color: aqua;
 }
 
+/* child selector  */
+
+span > p{
+  color:red
+}
+
+/* we can include class and id also */
+div,
+h1,
+span,
+em,.custom, #idName{
+  color: rgb(109, 245, 24);
+}
+
+li{
+  color:red
+}
+/* Desendent combinator */
+
+li li{
+  color:blue
+}
