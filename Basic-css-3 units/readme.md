@@ -7,3 +7,10 @@ Relative units -
 5-VW
 6-VMIN
 7-VMAX
+
+Absolute units-
+1-CM 
+2-MM
+3-PX
+4-PT
+5-PC
