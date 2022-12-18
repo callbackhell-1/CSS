@@ -1,0 +1,21 @@
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: lightcyan;
+  font-size: 20px;
+}
+
+h1 {
+  /* font-size: 500%; --> parent's font size 500% => h1 parent is body so 500% of 20 = 100px */
+
+  /* font-size: 2em; --> 200% or 2em same thing 2 times of parent font size i.e, 2*20= 40px*/
+
+  /* font-size: 2rem; -->root element size i.e HTML by default 16 px  so here font size become 16*2 = 32px*/
+
+  /* font-size: 10vw; */
+  /* font-size: 10vh; 10% of viewport height */
+  /* font-size: 5vmin; it will check height and width of the pg and whichever is less, font size set as 5% of that*/
+  /* font-size: 5vmax; same as above  */
+}
