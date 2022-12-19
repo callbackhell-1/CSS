@@ -7,18 +7,13 @@ body {
 }
 
 .small {
-  /* height: 200px; */
+  height: 200px;
   width: 200px;
   border: 2px solid black;
   padding: 10px 10px 20px 50px;
-  /* top right bott left */
-  /* padding: top-bott & left-right; */
   margin: 13px;
   background-color: lightcoral;
-  /* box-sizing: border-box; */
+  overflow: auto;
 }
 
-.ok {
-  border: 2px solid red;
-  background-color: lightgreen;
-}
+
