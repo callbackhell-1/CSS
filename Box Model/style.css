@@ -6,12 +6,19 @@ body {
   font-size: 20px;
 }
 
-ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  list-style-image: url("/Media/");
-  list-style: circle outside ;
-  list-style: none;
+.small {
+  /* height: 200px; */
+  width: 200px;
+  border: 2px solid black;
+  padding: 10px 10px 20px 50px;
+  /* top right bott left */
+  /* padding: top-bott & left-right; */
+  margin: 13px;
+  background-color: lightcoral;
+  /* box-sizing: border-box; */
 }
 
-
+.ok {
+  border: 2px solid red;
+  background-color: lightgreen;
+}
