@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: 5px solid rebeccapurple;
+  height: 1000px;
+}
 div {
   height: 100px;
   width: 100px;
@@ -5,19 +13,20 @@ div {
 
 #first {
   background-color: crimson;
-  position: relative;
-  top: 20px;
-  left: 20px;
+  position: sticky;
+  border: 2px solid rgb(182, 217, 8);
+  width: 100vw;
+  top: 10px;
 }
 #second {
   background-color: aqua;
-  position: relative;
-  top: 20px;
-  left: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 100px;
+  text-align: center;
+
 }
 #third {
   background-color: green;
-  position: relative;
-  top: 30px;
-  left: 20px;
 }

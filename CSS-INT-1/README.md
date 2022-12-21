@@ -6,6 +6,6 @@ position :
 
 -> static (default)
 ->relative (unlock top right bottom left) -> relative wrt actual pos.
-->absolute
+->absolute - > change from actual position
 ->fixed
-->sticky
+->sticky -> Sticky position only works inside the parent div
