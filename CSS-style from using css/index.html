@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="/user/data" method="get">
+        <h1>CONTACT US</h1>
+
+        <div>
+            <label for="name" id="name">Name:</label>
+            <input type="text" name="username" id="name" required placeholder="Enter your Name" />
+        </div><br>
+
+        <div>Email : <input type="email" name="useremail" id="email" required placeholder="Enter your email" /></div> <br>
+        
+        <div>Message: <textarea name="Address" id="" cols="30" rows="10" placeholder="Enter your message here..."></textarea></div> <br>
+
+        <div>Number: <input type="number" name="usernum" id="num" /></div> <br>
+
+        <div>
+            Nationality :
+            <input type="text" name="" id="" value="India">
+        </div> <br>
+
+        <div>
+            Gender:<select name="usergender" id="gender">
+                <option value="">Choose Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="others">others</option>
+            </select>
+        </div> <br>
+
+        <div>
+            Skills :
+            <input type="checkbox" name="Frontend" id="Frontend" />
+            <label for="Frontend">Frontend</label>
+
+            <input type="checkbox" name="Backend " id="Backend" />
+            <label for="Backend">Backend</label>
+
+            <input type="checkbox" name="Fullstack" id="Fullstack" />
+            <label for="Fullstack">Fullstack</label>
+        </div>
+        <br>
+
+        <fieldset>
+            <legend>Mode of payment</legend>
+            <div>
+                Gender :
+                <input type="radio" name="payment" id="UPI" />
+                <label for="UPI">UPI</label>
+
+                <input type="radio" name="payment" id="Bank">
+                <label for="Bank">Bank</label>
+
+                <input type="radio" name="payment" id="CASH">
+                <label for="CASH">Cash</label>
+            </div>
+            <br>
+        </fieldset> <br>
+
+
+        <div>
+            Password :
+            <input type="password" name="userpass" id="">
+        </div> <br>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div> <br>
+    </form>
+
+</html>
