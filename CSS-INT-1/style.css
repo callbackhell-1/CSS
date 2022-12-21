@@ -1,20 +1,15 @@
-body {
-  height: 722px;
+.container {
   border: 2px solid red;
 }
-div {
-  height: 100px;
-  width: 100px;
+.container > div {
+  border: 2px solid green;
+  height: 200px;
+  width: 200px;
+  display: inline;
 }
-#first {
-  background-color: crimson;
-}
-#second {
-  background-color: rgb(48, 205, 53);
-  float: right;
-}
-#third {
-  background-color: rgb(56, 213, 213);
-  clear: right;
-  clear: both;
+
+.container > span {
+  display: block;
+  background-color: lightcoral;
+  border: 2px solid rgb(115, 27, 209);
 }
