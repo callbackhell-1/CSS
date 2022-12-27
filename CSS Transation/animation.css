@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: lightgrey;
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  font: bold 2rem cursive;
+  margin: 2vmax;
+  transition: all 2s;
+}
+
+#box1{
+    /* animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5; */
+
+    /* short-hand */
+    /* animation: AnimationName duration liner delay numberoftimes; */
+animation: myAnimation 1s linear 1s infinite  forwards;
+
+}
+
+@keyframes myAnimation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
