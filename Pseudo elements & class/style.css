@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+p::first-line{
+    color:red;
+}
+
+p::first-letter{
+    color:aqua;
+}
+
+/* This is Apply to all */
+
+::first-letter{
+    color:aqua;
+}
+
+p::before{
+    content: "LOLLLLLL";
+    background-color: gray;
+    /* height: 100vh;
+    width: 100vw; */
+    display: block;
+}
