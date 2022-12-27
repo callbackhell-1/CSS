@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: lightgrey;
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  font: bold 2rem cursive;
+  margin: 2vmax;
+  transition: all 2s ease-in-out 0.1s;
+
+
+}
+
+/* Transition */
+
+.box:hover {
+  background-color: tomato;
+  color: blue;
+  width: 80%;
+  box-shadow: 0 0 20px black;
+
+      /* Transform */
+      /* transform: skewX(-30deg) skewY(30deg ); */
+      /* transform: translate(100px, 100px); */
+      /* scale: 2; */
+      /* transform: rotateX(90deg); */
+
+
+      /* multiple property together */
+      transform: rotateX(90deg) scale(2) translate(50%);
+}
