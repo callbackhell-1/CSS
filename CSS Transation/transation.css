@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.box {
+  background-color: lightgrey;
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  font: bold 2rem cursive;
+  margin: 2vmax;
+
+  /* Transition */
+  /* transition-property: background-color;  
+  transition-duration: 2s;
+  transition-delay: 1s;
+  transition-timing-function: ease-in; */
+
+  /* short-hand */
+  /* transition: propert duration timing-fun delay; */
+
+  transition: all 2s ease-in-out 0.1s;
+}
+
+/* Transition */
+
+.box:hover {
+  background-color: tomato;
+  color: blue;
+  width: 80%;
+  box-shadow: 0 0 20px  black;
+}
