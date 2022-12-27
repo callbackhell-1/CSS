@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  /* grid */
+  display: grid;
+  /* grid-template-columns: 100px 100px; */
+  /* grid-template-rows: 100px 200px 300px; */
+
+  /* different other units */
+  /* grid-template-columns: 30% 30% 40%; */
+
+  /* to add margin */
+  grid-gap: 2px;
+
+  /* to avoid overflow use fr(fraction) */
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* to repeat */
+  /* grid-template-columns: 100px 100px 100px;  */ /* or */
+  /* grid-template-columns: repeat(3, 100px); */
+
+  /* grid-template-columns: repeat(auto-fill, 100px); */
+  /* auto fill se utni baar repeat hoga jitne aa skte */
+
+  /* grid-template-columns: repeat(auto-fill,minmax(400px, 1fr)); */
+  /* min. 400px toh ho hi rest space baant to maximum me. */
+
+  /* grid-template-columns: 400px minmax(400px, 1fr); */
+  /* first cols : 400px */
+
+  /* to set the height */
+  /* grid-auto-rows: 200px; */
+
+  grid-auto-flow: column;
+  grid-auto-columns: 500px;
+}
+
+.box {
+  /* height: 100px; */
+  /* width: 100px; */
+  background-color: tomato;
+  border: 2px solid green;
+}
